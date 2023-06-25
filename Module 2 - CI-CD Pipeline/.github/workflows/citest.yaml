@@ -1,0 +1,9 @@
+name: GitHub Actions Demo
+on: [ push ]
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo " The job was automatically triggered by a ${{ github.event_name}} event now."
+      - run: python Module 2 - CI-CD Pipeline/main.py
