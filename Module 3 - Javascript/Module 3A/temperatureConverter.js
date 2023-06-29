@@ -17,4 +17,4 @@ function celsiusToFahrenheitConverter(celsius){
 }
 let celsius = 30
 let fahrenheit = celsiusToFahrenheitConverter(celsius)
-console.log(celsius+'degC is equivalent to '+ fahrenheit +'degF')
+console.log(celsius+' degC is equivalent to '+ fahrenheit +'degF')

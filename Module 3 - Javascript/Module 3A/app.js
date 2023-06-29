@@ -15,3 +15,15 @@ if (age>=18){
 } else{
     console.log("You are not eligible to vote")
 }
+
+// const emptyArray = []
+// console.log(emptyArray)
+// emptyArray.push(12,14)
+
+const notEmpty =[1,2,3,4]
+console.log(notEmpty.length)
+for (i=0; i<notEmpty.length; i++){
+    notEmpty.pop()
+    console.log('i popped' + i)
+}
+console.log(notEmpty)
