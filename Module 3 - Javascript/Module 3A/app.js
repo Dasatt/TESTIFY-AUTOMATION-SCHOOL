@@ -8,7 +8,7 @@ OR --> || either must be trye
 NOT --> ! toggles boolean values
 */
 
-const age = 15
+/*const age = 15
 
 if (age>=18){
     console.log("You are eligible to vote")
@@ -26,4 +26,6 @@ for (i=0; i<notEmpty.length; i++){
     notEmpty.pop()
     console.log('i popped' + i)
 }
-console.log(notEmpty)
+console.log(notEmpty)*/
+
+const myObject = {name: 'car', colour:'red', price:250000}
