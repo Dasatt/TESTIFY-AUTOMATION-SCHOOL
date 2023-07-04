@@ -29,3 +29,18 @@ for (i=0; i<notEmpty.length; i++){
 console.log(notEmpty)*/
 
 const myObject = {name: 'car', colour:'red', price:250000}
+const door = {
+    isOpen: false,
+    material:'wood',
+    height:8,
+    toggleOpeAndClose: function(){
+        if (door.isOpen === true){
+            door.isOpen = false
+        }else{
+            door.isOpen = true
+        }
+    }
+}
+console.log(door.isOpen)
+door.toggleOpeAndClose()
+console.log(door.isOpen)
