@@ -1,0 +1,11 @@
+{
+  "name": "tasmodule3a",
+  "version": "1.0.0",
+  "description": "TAS Module 3A for learning NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oluyemisi",
+  "license": "ISC"
+}

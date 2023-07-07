@@ -1,4 +1,4 @@
-//book object using object literal
+//book array, and log books where reading status is true
 
 const books =[ 
     {   
