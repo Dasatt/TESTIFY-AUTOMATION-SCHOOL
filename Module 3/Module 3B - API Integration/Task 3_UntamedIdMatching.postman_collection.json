@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "553cea34-513d-432d-9bf5-71d43ae6cfc3",
+		"name": "Module3B Task 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28662269"
+	},
+	"item": [
+		{
+			"name": "Task3_Checked Untamed ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\",() => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"const response = pm.response.json();\r",
+							"const unTamedId = 5 //expected ID for book Untamed is 2\r",
+							"\r",
+							"pm.test (\"ID matches\", () => {\r",
+							"    for(index in response){\r",
+							"    //loop through all objects in the json array and assign to variable book\r",
+							"    let book = response[index] \r",
+							"    if (book.name == \"Untamed\"){\r",
+							"        pm.expect(book.id).to.eql(unTamedId)        \r",
+							"    }    \r",
+							"}\r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseUrl}}"
+			},
+			"response": []
+		}
+	]
+}
