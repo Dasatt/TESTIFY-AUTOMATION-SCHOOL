@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Task2",
 			"id": "8ef2f017-e46b-4415-93da-db9b448b8f17",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
