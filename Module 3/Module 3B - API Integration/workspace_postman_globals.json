@@ -1,0 +1,14 @@
+{
+	"id": "91c8a5f1-0726-4b66-8435-5462405603ad",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://simple-books-api.glitch.me/books",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-07-22T22:54:35.472Z",
+	"_postman_exported_using": "Postman/10.15.9"
+}
