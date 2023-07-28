@@ -16,9 +16,7 @@
 							"pm.test(\"Status code is 200\",() => {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
-							"\r",
 							"const allBooks = pm.response.json();\r",
-							"console.log(allBooks)\r",
 							"pm.test('Environment ID Set!', () => {\r",
 							"    for(index in allBooks){\r",
 							"    //loop through all objects in the json array and assign to variable book\r",
@@ -45,7 +43,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{baseUrl}}"
+				"url": "{{baseUrl}}/books"
 			},
 			"response": []
 		},
