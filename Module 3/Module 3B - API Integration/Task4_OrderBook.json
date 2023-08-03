@@ -3,7 +3,8 @@
 		"_postman_id": "047add17-af20-4fab-b1fa-155b0e8f7696",
 		"name": "Module3B Task 4",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
-		"_exporter_id": "28662269"
+		"_exporter_id": "28662269",
+		"_collection_link": "https://grey-star-541059.postman.co/workspace/TAS-Cohort2~f1fac03b-cc6d-453c-8e59-cfa39936e341/collection/28662269-047add17-af20-4fab-b1fa-155b0e8f7696?action=share&creator=28662269&source=collection_link"
 	},
 	"item": [
 		{
@@ -49,6 +50,20 @@
 		},
 		{
 			"name": "Order Book",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Book successfully ordered\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -68,24 +83,6 @@
 					}
 				},
 				"url": "{{baseUrl}}/orders"
-			},
-			"response": []
-		},
-		{
-			"name": "Register Self",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n   \"clientName\": \"YemisiPostman\",\r\n   \"clientEmail\": \"Yemisi@testify.com\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{baseUrl}}/api-clients"
 			},
 			"response": []
 		}
@@ -112,8 +109,18 @@
 	],
 	"variable": [
 		{
+			"key": "baseUrl",
+			"value": "https://simple-books-api.glitch.me",
+			"type": "string"
+		},
+		{
 			"key": "accessToken",
-			"value": "",
+			"value": "fb6a91d41adb739563277da84b75b657ed2871a7feb3d1c7a53a7310b4e06467",
+			"type": "string"
+		},
+		{
+			"key": "RussianId",
+			"value": "1",
 			"type": "string"
 		}
 	]

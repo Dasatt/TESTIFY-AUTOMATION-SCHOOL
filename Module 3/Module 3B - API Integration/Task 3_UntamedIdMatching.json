@@ -3,7 +3,8 @@
 		"_postman_id": "553cea34-513d-432d-9bf5-71d43ae6cfc3",
 		"name": "Module3B Task 3",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
-		"_exporter_id": "28662269"
+		"_exporter_id": "28662269",
+		"_collection_link": "https://grey-star-541059.postman.co/workspace/TAS-Cohort2~f1fac03b-cc6d-453c-8e59-cfa39936e341/collection/28662269-553cea34-513d-432d-9bf5-71d43ae6cfc3?action=share&creator=28662269&source=collection_link"
 	},
 	"item": [
 		{
@@ -18,16 +19,19 @@
 							"});\r",
 							"\r",
 							"const response = pm.response.json();\r",
+							"console.log(response)\r",
 							"const unTamedId = 5 //expected ID for book Untamed is 2\r",
+							"let idFound = 0\r",
 							"\r",
 							"pm.test (\"ID matches\", () => {\r",
 							"    for(index in response){\r",
 							"    //loop through all objects in the json array and assign to variable book\r",
 							"    let book = response[index] \r",
 							"    if (book.name == \"Untamed\"){\r",
-							"        pm.expect(book.id).to.eql(unTamedId)        \r",
-							"    }    \r",
-							"}\r",
+							"        idFound = book.id\r",
+							"    }\r",
+							"    }     \r",
+							"    pm.expect(idFound).to.eql(unTamedId)\r",
 							"});\r",
 							"\r",
 							"\r",
@@ -43,7 +47,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{baseUrl}}"
+				"url": "{{baseUrl}}/books"
 			},
 			"response": []
 		}
