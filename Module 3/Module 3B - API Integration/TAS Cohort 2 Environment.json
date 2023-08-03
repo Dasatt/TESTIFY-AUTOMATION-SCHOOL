@@ -1,15 +1,26 @@
 {
-	"id": "16cf272b-b2bf-402a-89d5-d08ac3508c23",
-	"name": "TAS Cohort 2 Environment",
+	"id": "e61b58a7-85f3-46aa-aa21-1e2ebffbc780",
+	"name": "TAS Cohort2 Environment",
 	"values": [
 		{
-			"key": "RussianId",
+			"key": "baseUrl",
+			"value": " https://simple-books-api.glitch.me",
+			"enabled": true
+		},
+		{
+			"key": "accessToken",
 			"value": "",
-			"type": "any",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "RussianId",
+			"value": "1",
+			"type": "default",
 			"enabled": true
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2023-07-28T00:55:17.433Z",
-	"_postman_exported_using": "Postman/10.15.9"
+	"_postman_exported_at": "2023-08-03T16:48:08.611Z",
+	"_postman_exported_using": "Postman/10.16.5"
 }

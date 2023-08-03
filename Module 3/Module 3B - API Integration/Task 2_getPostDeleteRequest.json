@@ -3,7 +3,8 @@
 		"_postman_id": "32174f80-896c-46b8-af52-fde5dc97da56",
 		"name": "Module3B Task 2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
-		"_exporter_id": "28662269"
+		"_exporter_id": "28662269",
+		"_collection_link": "https://grey-star-541059.postman.co/workspace/TAS-Cohort2~f1fac03b-cc6d-453c-8e59-cfa39936e341/collection/28662269-32174f80-896c-46b8-af52-fde5dc97da56?action=share&creator=28662269&source=collection_link"
 	},
 	"item": [
 		{
@@ -25,15 +26,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://reqres.in/api/users?page=2",
-					"protocol": "https",
+					"raw": "{{baseUrl}}?page=2",
 					"host": [
-						"reqres",
-						"in"
-					],
-					"path": [
-						"api",
-						"users"
+						"{{baseUrl}}"
 					],
 					"query": [
 						{
@@ -79,7 +74,7 @@
 						}
 					]
 				},
-				"url": "https://reqres.in/api/users"
+				"url": "{{baseUrl}}"
 			},
 			"response": []
 		},
@@ -101,9 +96,15 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "https://reqres.in/api/users/3"
+				"url": "{{baseUrl}}/3"
 			},
 			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://reqres.in/api/users"
 		}
 	]
 }
