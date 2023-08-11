@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sendinblue" tests="156" time="34.738">
+  <testsuite name="Sales CRM / Companies / Get all Companies" id="3be8814f-5af9-4d25-b997-0d5d54475b51" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.354"/>
+  <testsuite name="Sales CRM / Companies / Create a company" id="51abf9e0-3e28-40f1-bcfd-b3ae3f2deee5" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Sales CRM / Companies / Get company attributes" id="148f7c3e-2a94-4932-9d02-91c9ff471d57" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.259"/>
+  <testsuite name="Sales CRM / Companies / Link and Unlink company with contact and deal" id="a3228e58-0a0c-4c46-a1f9-891a8903140d" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.214"/>
+  <testsuite name="Sales CRM / Companies / Get a company" id="9e0e1653-8c11-4d67-a7a6-a6f39a68befd" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.202"/>
+  <testsuite name="Sales CRM / Companies / Delete a company" id="b586a6dc-18cf-4aa0-92d2-412e8678ffcd" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.201"/>
+  <testsuite name="Sales CRM / Companies / Update a company" id="ca9323e2-c26b-4d53-96f8-0d30d518da2c" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.191"/>
+  <testsuite name="Sales CRM / Companies / Get pipeline stages" id="3c11d6f5-4269-46a5-acb5-10f5d73c638b" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.420"/>
+  <testsuite name="Sales CRM / Deals / Get all deals" id="a5efe5fa-599e-49e7-8328-2a98863fd9ae" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.225"/>
+  <testsuite name="Sales CRM / Deals / Create a deal" id="e23b9739-4f11-4c0b-b781-17511fe935a4" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.194"/>
+  <testsuite name="Sales CRM / Deals / Link and Unlink a deal with contacts and companies" id="d7dd2053-5416-4d3d-974b-59ad832353a1" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.217"/>
+  <testsuite name="Sales CRM / Deals / Get deal attributes" id="efda2f3b-7207-4412-a793-1aca48152555" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.245"/>
+  <testsuite name="Sales CRM / Deals / Get a deal" id="b493de61-b769-42e0-ab6b-85e87a88b1aa" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.248"/>
+  <testsuite name="Sales CRM / Deals / Delete a deal" id="2fda7ebf-939e-401a-96ae-02facdd80f44" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.214"/>
+  <testsuite name="Sales CRM / Deals / Update a deal" id="a68d6a57-5af0-4e84-89e4-9b2f23c2f2d5" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.212"/>
+  <testsuite name="Sales CRM / Tasks / Get all tasks" id="54f7d8ed-65d1-4780-9acf-72992b6d7b48" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.666"/>
+  <testsuite name="Sales CRM / Tasks / Create a task" id="9317c680-fa05-499f-b4fe-eb91636dab9a" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.214"/>
+  <testsuite name="Sales CRM / Tasks / Get all task types" id="779683e1-d15e-4861-ba52-d57f8e18046c" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.213"/>
+  <testsuite name="Sales CRM / Tasks / Get a task" id="48d6ede0-3d4c-4dbd-9c11-fe430e4f4aa8" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.237"/>
+  <testsuite name="Sales CRM / Tasks / Delete a task" id="f91981f5-dacd-4204-a2be-8bb578d9d486" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.174"/>
+  <testsuite name="Sales CRM / Tasks / Update a task" id="ff8d2467-aa86-4a5d-9d6f-46a9973609f7" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.220"/>
+  <testsuite name="Sales CRM / Notes / Get all notes" id="f812511f-5363-4e34-ba4e-841f03867d60" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.208"/>
+  <testsuite name="Sales CRM / Notes / Create a note" id="915322b4-0198-4efe-99b8-83797f4b9bcc" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.197"/>
+  <testsuite name="Sales CRM / Notes / Get a note" id="2e01faa7-bac6-47f7-979b-edba90a0cf5e" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.224"/>
+  <testsuite name="Sales CRM / Notes / Update a note" id="fc1ba13b-b868-4f60-9bdc-826092a0d91a" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Sales CRM / Notes / Delete a note" id="63cd551d-4347-426a-9092-28cfbb121904" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.241"/>
+  <testsuite name="Sales CRM / Files / Get all files" id="65c84f6a-24a3-4d4b-a5c9-9af83e07b7e4" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.261"/>
+  <testsuite name="Sales CRM / Files / Upload a file" id="275f097c-8083-4c6b-b03a-0ce7e058f88e" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Sales CRM / Files / Download a file" id="87096640-9ca0-4b3d-b93e-3dde8a893882" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.236"/>
+  <testsuite name="Sales CRM / Files / Delete a file" id="2e8c1a73-b7f3-47de-8a97-3ec090c011f1" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.226"/>
+  <testsuite name="Sales CRM / Files / Get file details" id="1b45b497-202a-4ac3-a2d0-2f6b0767dd40" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.268"/>
+  <testsuite name="Marketing / Email Campaigns / Get an email campaign report" id="5b35b2ec-7ce5-4bcd-943a-537d3127c14d" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.238"/>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign" id="3bf4d9aa-ba09-42dd-a25e-197be57fbd97" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.267"/>
+  <testsuite name="Marketing / Email Campaigns / Delete an email campaign" id="179254b6-5aba-4fdf-8eea-d740cf95cc84" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.204"/>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign immediately, based on campaignId" id="1952b0f7-40fa-4d34-9d83-9464a7d39bbc" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.199"/>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign to your test list" id="8b874e7d-d666-4d10-bdc6-79b024bd9074" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.266"/>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign status" id="c83097f4-4598-46e9-b300-865acc685b17" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.220"/>
+  <testsuite name="Marketing / Email Campaigns / Send the report of a campaign" id="f6bcce91-2828-4924-8a6b-9521f849b96f" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.206"/>
+  <testsuite name="Marketing / Email Campaigns / Get an A/B test email campaign results" id="33a53f74-5d81-4b64-bb55-8013ba45f187" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.233"/>
+  <testsuite name="Marketing / Email Campaigns / Get a shared template url" id="d755f9f4-50b2-453d-aeb3-9becbd52ddf5" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.207"/>
+  <testsuite name="Marketing / Email Campaigns / Export the recipients of an email campaign" id="0d4b8c03-9561-43e4-95a5-8f285117b5cb" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.226"/>
+  <testsuite name="Marketing / Email Campaigns / Return all your created email campaigns" id="db2b8aa4-c0f7-4f8c-9e53-5ef30a115428" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.232"/>
+  <testsuite name="Marketing / Email Campaigns / Create an email campaign" id="0a6fd96f-7d07-4815-a785-197981b94ba3" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.231"/>
+  <testsuite name="Marketing / Email Campaigns / Upload an image to your account's image gallery" id="f8cc7ac8-6af4-477f-8005-b230247cff43" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.215"/>
+  <testsuite name="Marketing / SMS Campaigns / Returns the information for all your created SMS campaigns" id="87a9691e-6808-43f7-9ac8-8083e6e2a06d" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Marketing / SMS Campaigns / Creates an SMS campaign" id="1791a5d4-9126-49cf-94a9-e40878052bd3" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.193"/>
+  <testsuite name="Marketing / SMS Campaigns / Get an SMS campaign" id="60e4e462-605e-4344-8f6e-6d519b1a8ff2" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.244"/>
+  <testsuite name="Marketing / SMS Campaigns / Update an SMS campaign" id="f887d4a2-9302-40b9-894e-0432ada4808e" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Marketing / SMS Campaigns / Delete an SMS campaign" id="acd80a40-73dc-42f8-9b49-543f38502c86" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.288"/>
+  <testsuite name="Marketing / SMS Campaigns / Send your SMS campaign immediately" id="ad707b74-a1f5-4dec-aff8-366640905377" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.242"/>
+  <testsuite name="Marketing / SMS Campaigns / Update a campaign's status" id="407c5aed-2841-49d4-b43d-1b4ffe3397c8" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Marketing / SMS Campaigns / Send a test SMS campaign" id="2797843c-63c2-4f9d-a961-0572754e53dc" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.218"/>
+  <testsuite name="Marketing / SMS Campaigns / Export an SMS campaign's recipients" id="2279acef-036f-4ed7-95f3-09623a26ba07" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.214"/>
+  <testsuite name="Marketing / SMS Campaigns / Send an SMS campaign's report" id="1a08da1e-7237-45d4-b0fb-42af98f6e5f3" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.216"/>
+  <testsuite name="Conversations / Messages / Send a message as an agent" id="ca873b84-8321-42c8-85ab-8ec31f4cd8bb" timestamp="2023-08-11T10:47:07.601Z" tests="4" failures="2" errors="0" time="0.163">
+    <testcase name="Message successfully sent as agent with code 200!" time="0.163" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Conversations / Messages / Send a message as an agent.]]>
+        <![CDATA[Test description: Message successfully sent as agent with code 200!.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:55).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.163" classname="Sendinblue"/>
+    <testcase name="ID key successfuly generated and returned value!" time="0.163" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Conversations / Messages / Send a message as an agent.]]>
+        <![CDATA[Test description: ID key successfuly generated and returned value!.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:3:55).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 500ms" time="0.163" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Get a message" id="d75cf8c5-a5c2-4a0a-ba3d-1cc05da89e7b" timestamp="2023-08-11T10:47:07.601Z" tests="3" failures="1" errors="0" time="0.214">
+    <testcase name="Message successfully loaded with code 200!" time="0.214" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Conversations / Messages / Get a message.]]>
+        <![CDATA[Test description: Message successfully loaded with code 200!.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:56).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.214" classname="Sendinblue"/>
+    <testcase name="Request response time is &lt; 500ms" time="0.214" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Update a message sent by an agent" id="f397aab8-92d1-414c-8a65-3c08e976bc45" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.257"/>
+  <testsuite name="Conversations / Messages / Delete a message sent by an agent" id="743cd7fd-c964-4ea8-b0d2-abddaac492f4" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Conversations / Status / Sets agent’s status to online for 2-3 minutes" id="b9a2f04f-da6f-4563-a5f7-f1db03812726" timestamp="2023-08-11T10:47:07.601Z" tests="3" failures="1" errors="0" time="0.197">
+    <testcase name="LMessage status set succesfully with code 201!" time="0.197" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Conversations / Status / Sets agent’s status to online for 2-3 minutes.]]>
+        <![CDATA[Test description: LMessage status set succesfully with code 201!.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 401
+   at Object.eval sandbox-script.js:1:59).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.197" classname="Sendinblue"/>
+    <testcase name="Request response time is &lt; 500ms" time="0.197" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Send an automated message to a visitor" id="3613cc49-f46d-43c4-a336-028d53e9376f" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.158"/>
+  <testsuite name="Conversations / Pushed messages / Get an automated message" id="4d8174d4-e80b-4317-bde9-d7d7808c742a" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.211"/>
+  <testsuite name="Conversations / Pushed messages / Update an automated message" id="f81a7ce9-465b-4335-bc35-81c54a9b6edb" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.193"/>
+  <testsuite name="Conversations / Pushed messages / Delete an automated message" id="28ed2813-5d2c-4b16-8c46-91c3b523a318" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.190"/>
+  <testsuite name="Contact management / Contacts / Get all the contacts" id="44057352-b8c8-43ff-8a61-66bb8d813bdd" timestamp="2023-08-11T10:47:07.601Z" tests="5" failures="3" errors="0" time="0.238">
+    <testcase name="All contacts loaded successfully with code 200!" time="0.238" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get all the contacts.]]>
+        <![CDATA[Test description: All contacts loaded successfully with code 200!.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:64).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.238" classname="Sendinblue"/>
+    <testcase name="Contact key present with valid array data!" time="0.238" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { Object (message, code) } to have property 'contacts'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get all the contacts.]]>
+        <![CDATA[Test description: Contact key present with valid array data!.]]>
+        <![CDATA[Error message: expected { Object (message, code) } to have property 'contacts'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (message, code) } to have property 'contacts'
+   at Object.eval sandbox-script.js:3:64).]]>
+      </failure>
+    </testcase>
+    <testcase name="All returned contacts contain appropriate properties/keys" time="0.238" classname="Sendinblue"/>
+    <testcase name="Each contact has a non-empty email field" time="0.238" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get all the contacts.]]>
+        <![CDATA[Test description: Each contact has a non-empty email field.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:5:64).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create a contact" id="047e793f-d07a-4b3c-9dd0-633613753c8b" timestamp="2023-08-11T10:47:07.601Z" tests="4" failures="2" errors="0" time="0.197">
+    <testcase name="Transaction email successfuly sent with code 201!" time="0.197" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Create a contact.]]>
+        <![CDATA[Test description: Transaction email successfuly sent with code 201!.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 401
+   at Object.eval sandbox-script.js:1:65).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.197" classname="Sendinblue"/>
+    <testcase name="ID key successfuly generated and returned value!" time="0.197" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { Object (message, code) } to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Create a contact.]]>
+        <![CDATA[Test description: ID key successfuly generated and returned value!.]]>
+        <![CDATA[Error message: expected { Object (message, code) } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (message, code) } to have property 'id'
+   at Object.eval sandbox-script.js:3:65).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 1000ms" time="0.197" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create Contact via DOI (Double-Opt-In) Flow" id="7db73b31-733a-4f76-a6fb-71bb4369e80e" timestamp="2023-08-11T10:47:07.601Z" tests="4" failures="2" errors="0" time="0.200">
+    <testcase name="Transaction email successfuly sent with code 201!" time="0.200" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Create Contact via DOI (Double-Opt-In) Flow.]]>
+        <![CDATA[Test description: Transaction email successfuly sent with code 201!.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 401
+   at Object.eval sandbox-script.js:1:66).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.200" classname="Sendinblue"/>
+    <testcase name="ID key successfuly generated and returned value!" time="0.200" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { Object (message, code) } to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Create Contact via DOI (Double-Opt-In) Flow.]]>
+        <![CDATA[Test description: ID key successfuly generated and returned value!.]]>
+        <![CDATA[Error message: expected { Object (message, code) } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (message, code) } to have property 'id'
+   at Object.eval sandbox-script.js:3:66).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 1000ms" time="0.200" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Update multiple contacts" id="54901a35-f200-4547-8a7d-af302d8f4173" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.187"/>
+  <testsuite name="Contact management / Contacts / Export contacts" id="dcbb436d-0fd2-4c88-b906-6c6a24e78112" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.185"/>
+  <testsuite name="Contact management / Contacts / Import contacts" id="19008d3b-7a2d-4da7-924f-62bf73683b49" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.230"/>
+  <testsuite name="Contact management / Contacts / Get a contact's details" id="af7cfefd-3f71-4c14-8f12-260f72a4d7c4" timestamp="2023-08-11T10:47:07.601Z" tests="5" failures="3" errors="0" time="0.222">
+    <testcase name="Transaction email content successfully loaded with code 200!" time="0.222" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Transaction email content successfully loaded with code 200!.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:70).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 1s" time="0.222" classname="Sendinblue"/>
+    <testcase name="Response data is an object!" time="0.222" classname="Sendinblue"/>
+    <testcase name="Main Keys/Fields confirmed present in response data" time="0.222" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Main Keys/Fields confirmed present in response data.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:4:70).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Delete a contact" id="ab33aa5f-a07c-414a-a377-a6ae19364069" timestamp="2023-08-11T10:47:07.601Z" tests="2" failures="1" errors="0" time="0.212">
+    <testcase name="Contact deleted successfully with code 204!" time="0.212" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Delete a contact.]]>
+        <![CDATA[Test description: Contact deleted successfully with code 204!.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:1:71).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 300ms" time="0.212" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Update a contact" id="c26676ec-c462-46af-a1f8-fac6bc6434a8" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.178"/>
+  <testsuite name="Contact management / Contacts / Get email campaigns' statistics for a contact" id="5e8e5f82-9fb1-48f9-a7d2-7f7c343c8c08" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.195"/>
+  <testsuite name="Contact management / Folders / Get all folders" id="7c1e356e-7552-46f8-85dc-d89d0a8077a8" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.196"/>
+  <testsuite name="Contact management / Folders / Create a folder" id="a3e87421-e0ae-421a-8a56-b340480951cc" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.202"/>
+  <testsuite name="Contact management / Folders / Returns a folder's details" id="e0c6a723-f8a8-4771-b870-fd3505a4ab06" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.255"/>
+  <testsuite name="Contact management / Folders / Update a folder" id="f63f4618-de65-49c1-8c86-9d2e0cc2aded" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.191"/>
+  <testsuite name="Contact management / Folders / Delete a folder (and all its lists)" id="053368b6-e9f9-40e4-9e99-5152db724282" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.197"/>
+  <testsuite name="Contact management / Folders / Get lists in a folder" id="cbc95d33-0823-4964-96ad-4a3bbebdc1f4" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.245"/>
+  <testsuite name="Contact management / Lists / Get all the lists" id="29811270-b421-4ccf-9ef0-70f9b18f4260" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.211"/>
+  <testsuite name="Contact management / Lists / Create a list" id="df9106a3-730b-4e16-9f41-ce67d4046563" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.190"/>
+  <testsuite name="Contact management / Lists / Get contacts in a list" id="38c55c60-d164-44cf-994e-6d9e305b1cc8" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.212"/>
+  <testsuite name="Contact management / Lists / Add existing contacts to a list" id="ce699f14-feb7-49a5-9d26-b241a7e1d3a4" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.268"/>
+  <testsuite name="Contact management / Lists / Delete a contact from a list" id="49374246-7a78-4aaa-92f6-8e15f2b9d1eb" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.216"/>
+  <testsuite name="Contact management / Lists / Get a list's details" id="b6689935-8ad7-4cf4-9f08-458facb19185" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.280"/>
+  <testsuite name="Contact management / Lists / Update a list" id="9de88cfe-a1d7-4867-83ff-16e267bddf35" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.191"/>
+  <testsuite name="Contact management / Lists / Delete a list" id="4a336d89-28a5-4e4b-ac26-4e06cb989a70" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.215"/>
+  <testsuite name="Contact management / Attributes / List all attributes" id="3ded2c49-1522-4202-adcd-7d9a6d721cdf" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.238"/>
+  <testsuite name="Contact management / Attributes / Update contact attribute" id="de2c5050-d6f1-44f3-bdb4-c636a7158e87" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.280"/>
+  <testsuite name="Contact management / Attributes / Create contact attribute" id="922c5ef2-b9d9-4947-a7af-d310360e2bfb" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.224"/>
+  <testsuite name="Contact management / Attributes / Delete an attribute" id="f8cc8f01-0e0c-4ff2-ac1c-259ea29bc8fb" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.228"/>
+  <testsuite name="Transactional / Email API / Send a transactional email" id="b33bd761-ef89-4d6b-a7f7-4e7c64c47fd9" timestamp="2023-08-11T10:47:07.601Z" tests="4" failures="2" errors="0" time="0.243">
+    <testcase name="Transaction email successfuly sent with code 201!" time="0.243" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Send a transactional email.]]>
+        <![CDATA[Test description: Transaction email successfuly sent with code 201!.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 401
+   at Object.eval sandbox-script.js:1:92).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.243" classname="Sendinblue"/>
+    <testcase name="Message ID key successfuly generated and returned value!" time="0.243" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Send a transactional email.]]>
+        <![CDATA[Test description: Message ID key successfuly generated and returned value!.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:3:92).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 500ms" time="0.243" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Get the list of transactional emails on the basis of allowed filters" id="2cf47b3b-9398-45fa-93c2-10f8e96969e2" timestamp="2023-08-11T10:47:07.601Z" tests="4" failures="2" errors="0" time="0.250">
+    <testcase name="Transaction list request successful with code 200!" time="0.250" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Get the list of transactional emails on the basis of allowed filters.]]>
+        <![CDATA[Test description: Transaction list request successful with code 200!.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:93).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.250" classname="Sendinblue"/>
+    <testcase name="Returned email ID matches email in request!" time="0.250" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'length')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Get the list of transactional emails on the basis of allowed filters.]]>
+        <![CDATA[Test description: Returned email ID matches email in request!.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'length').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'length')
+   at Object.eval sandbox-script.js:3:93).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 500ms" time="0.250" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Delete scheduled emails by batchId or messageId" id="5a7ffaaf-483b-4891-a844-997920c9b5f1" timestamp="2023-08-11T10:47:07.601Z" tests="2" failures="1" errors="0" time="0.236">
+    <testcase name="Email deleted successfully with code 204!" time="0.236" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Delete scheduled emails by batchId or messageId.]]>
+        <![CDATA[Test description: Email deleted successfully with code 204!.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:1:94).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 300ms" time="0.236" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Get the personalized content of a sent transactional email" id="157fd78a-5c98-4833-b3bc-8b5c2be4fb49" timestamp="2023-08-11T10:47:07.601Z" tests="5" failures="3" errors="0" time="0.323">
+    <testcase name="Transaction email content successfully loaded with code 200!" time="0.323" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Get the personalized content of a sent transactional email.]]>
+        <![CDATA[Test description: Transaction email content successfully loaded with code 200!.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:95).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 1s" time="0.323" classname="Sendinblue"/>
+    <testcase name="Response data is an object!" time="0.323" classname="Sendinblue"/>
+    <testcase name="Main Keys/Fields confirmed present in response data" time="0.323" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Get the personalized content of a sent transactional email.]]>
+        <![CDATA[Test description: Main Keys/Fields confirmed present in response data.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:4:95).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Fetch scheduled emails by batchId or messageId" id="610bd8a3-8dfc-4198-8e3d-215eb443fe89" timestamp="2023-08-11T10:47:07.601Z" tests="4" failures="2" errors="0" time="0.265">
+    <testcase name="Scheduled email successfully loaded with code 200!" time="0.265" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Fetch scheduled emails by batchId or messageId.]]>
+        <![CDATA[Test description: Scheduled email successfully loaded with code 200!.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:96).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 1s" time="0.265" classname="Sendinblue"/>
+    <testcase name="Response data is an object!" time="0.265" classname="Sendinblue"/>
+    <testcase name="Main Keys/Fields confirmed present in response data" time="0.265" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Email API / Fetch scheduled emails by batchId or messageId.]]>
+        <![CDATA[Test description: Main Keys/Fields confirmed present in response data.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:4:96).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Templates / Get the list of email templates" id="a4b5a476-4f77-4526-870d-65f277d147cc" timestamp="2023-08-11T10:47:07.601Z" tests="3" failures="1" errors="0" time="0.284">
+    <testcase name="List of email templates successfully loaded with code 200!" time="0.284" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Templates / Get the list of email templates.]]>
+        <![CDATA[Test description: List of email templates successfully loaded with code 200!.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:97).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.284" classname="Sendinblue"/>
+    <testcase name="Request response time is &lt; 500ms" time="0.284" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Templates / Create an email template" id="441f303b-2dc7-4273-ac51-35d5c3e2aa3b" timestamp="2023-08-11T10:47:07.601Z" tests="4" failures="2" errors="0" time="0.213">
+    <testcase name="Email template created successfully loaded with code 201!" time="0.213" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Templates / Create an email template.]]>
+        <![CDATA[Test description: Email template created successfully loaded with code 201!.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 401
+   at Object.eval sandbox-script.js:1:98).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response data is an object!" time="0.213" classname="Sendinblue"/>
+    <testcase name="ID key successfuly generated and returned value!" time="0.213" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: a507fa32-77d1-42c2-ac51-14676013f8f9.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Templates / Create an email template.]]>
+        <![CDATA[Test description: ID key successfuly generated and returned value!.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:3:98).]]>
+      </failure>
+    </testcase>
+    <testcase name="Request response time is &lt; 500ms" time="0.213" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Templates / Returns the template information" id="0bc2534c-d403-4ba6-8532-9c03be53e953" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.194"/>
+  <testsuite name="Transactional / Templates / Update an email template" id="e1dd6c90-a802-4edd-a8f6-1243e4c5b489" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.174"/>
+  <testsuite name="Transactional / Templates / Delete an inactive email template" id="f0e07263-2e84-4891-98d9-4029194b8f75" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Transactional / Templates / Send a template to your test list" id="7c2e4ace-27df-48f9-9e0c-53118661fd65" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.192"/>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated over a period of time" id="c35733ff-0214-490d-8cd2-47b99ffb0fb4" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.226"/>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated per day" id="b7c032c5-12e4-472a-8423-ba58d45d73bf" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.220"/>
+  <testsuite name="Transactional / Statistics / Get all your transactional email activity (unaggregated events)" id="11003cab-2de5-4288-9062-6b7a205bb34a" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.204"/>
+  <testsuite name="Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts" id="4d57ccd6-2761-4443-ab0c-70cc731e9850" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.220"/>
+  <testsuite name="Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact" id="62a78b70-8995-4456-8bdc-cde8f428c037" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Transactional / Blocked Domains / Get the list of blocked domains" id="9e3306f7-1cf0-4650-ace0-47e96b0d940b" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.217"/>
+  <testsuite name="Transactional / Blocked Domains / Add a new domain to the list of blocked domains" id="28bdde58-5717-4fa4-a16f-b0f20c9ff30a" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.208"/>
+  <testsuite name="Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains" id="2731def4-93ca-4527-bffb-bdc94806f1d8" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.206"/>
+  <testsuite name="Transactional / Logs / Delete hardbounces" id="e2329a4d-94a4-480c-a6dd-d2ed24dee097" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.188"/>
+  <testsuite name="Transactional / Logs / Delete an SMTP transactional log" id="c09328f2-6476-4562-ba6a-64c5695e8be0" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.264"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Get the list of all the events for the received emails." id="308df46e-f651-4611-94c6-d32b1fc2496e" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.218"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Fetch all events history for one particular received email." id="8013189a-c7db-4358-a69d-c17e49f71cf5" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.222"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Retrieve inbound attachment with download token." id="a98365d7-95f1-403d-ae94-22e733151771" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.220"/>
+  <testsuite name="Transactional / Transactional SMS / Send SMS message to a mobile number" id="7672f09a-f403-48bc-8d5f-8c97023b3146" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.214"/>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated over a period of time" id="7801de53-9988-4f65-8ef6-ce16e8e23124" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.212"/>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated per day" id="305b7980-5da2-4fb9-ae17-d5a54fbc2f4b" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.237"/>
+  <testsuite name="Transactional / SMS statistics / Get all your SMS activity (unaggregated events)" id="6abf7fcb-517a-4576-9ec1-d7d8e56a224a" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.222"/>
+  <testsuite name="Account / Webhooks / Get all webhooks" id="e0750821-4b3f-45b7-8daa-225ef46c793d" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.260"/>
+  <testsuite name="Account / Webhooks / Create a webhook" id="45bde315-50a0-41f1-9633-163221911755" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.206"/>
+  <testsuite name="Account / Webhooks / Get a webhook details" id="d7c3d1c5-96f3-4335-88a2-64cc5c4eabd2" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.229"/>
+  <testsuite name="Account / Webhooks / Update a webhook" id="1d351945-2e80-46f3-bde1-567f93e1a5d4" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.187"/>
+  <testsuite name="Account / Webhooks / Delete a webhook" id="bea3089c-69a1-411a-87c6-b4c1cb8dc78a" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Account / Reseller / Credits / Add Email and/or SMS credits to a specific child account" id="004f837c-ff91-4e4d-9034-a62ac7d240e6" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.217"/>
+  <testsuite name="Account / Reseller / Credits / Remove Email and/or SMS credits from a specific child account" id="fe91240d-55c6-4302-a3f3-3d0bc12cf2bd" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.200"/>
+  <testsuite name="Account / Reseller / IP management / Associate a dedicated IP to the child" id="182098a3-c85b-4316-9c93-ccf7013914b1" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.199"/>
+  <testsuite name="Account / Reseller / IP management / Dissociate a dedicated IP to the child" id="0e5588c6-5bc7-4007-8f0e-085fb63e52d1" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.304"/>
+  <testsuite name="Account / Reseller / Domains / Get all sender domains for a specific child account" id="62c422f8-df83-42b5-a4a4-24341b56b66b" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Account / Reseller / Domains / Create a domain for a child account" id="cae6363b-6243-4d48-8f91-0d0b3cae32ca" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.212"/>
+  <testsuite name="Account / Reseller / Domains / Update the sender domain of reseller's child based on the childIdentifier and domainName passed" id="4ec24dbf-0784-452c-9d76-dd61984039bc" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.252"/>
+  <testsuite name="Account / Reseller / Domains / Delete the sender domain of the reseller child based on the childIdentifier and domainName passed" id="826997c2-b76c-45e3-abc5-7874bd31d2d4" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.252"/>
+  <testsuite name="Account / Reseller / Child accounts / Get a child account's details" id="8efe0c38-c9a0-464b-9e5b-69c710992371" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child based on the child identifier supplied" id="ead45ef3-ced9-48d0-9f9f-22be6f60c2bc" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Account / Reseller / Child accounts / Delete a single reseller child based on the child identifier supplied" id="8f191456-0d34-4860-aa18-18de4a8cff98" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.206"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child account status based on the identifier supplied" id="88741d8e-8e00-43b0-8041-25ae3b762450" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.199"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the status of a reseller's child account creation, whether it is successfully created (exists) or not based on the childIdentifier supplied" id="2cc889c7-2ddb-427c-9bb6-08ad6e733cd1" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.226"/>
+  <testsuite name="Account / Reseller / Child accounts / Get session token to access Sendinblue (SSO)" id="1873b25e-2c96-4447-8480-551ded1f780c" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.197"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the list of all children accounts" id="e6bb0315-b41a-40af-b1ab-583c81513b3e" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.237"/>
+  <testsuite name="Account / Reseller / Child accounts / Creates a reseller child" id="4eeb7852-a9ef-486e-ba4a-4640ac42b5ff" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.235"/>
+  <testsuite name="Account / Process / Return all the processes for your account" id="71de5499-ef09-491c-be2c-ae8a0386a5d0" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.213"/>
+  <testsuite name="Account / Process / Return the informations for a process" id="06a57ee1-5c94-4235-a411-444e94b88db7" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.226"/>
+  <testsuite name="Account / Corporate / Get the details of requested master account" id="32556698-d156-4f20-b028-20241757d808" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.196"/>
+  <testsuite name="Account / Corporate / Get the list of all the sub-accounts of the master account." id="71450bba-2d85-40d5-9346-426e85485b19" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.208"/>
+  <testsuite name="Account / Corporate / Create a new sub-account under a master account." id="0fd79c3d-d800-49f6-b8fe-931401de8ffb" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.286"/>
+  <testsuite name="Account / Corporate / Generate SSO token to access Sendinblue" id="43449c4b-bae1-4aa6-97b2-7f082d6c0c43" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Account / Corporate / Get sub-account details" id="57165356-12dd-4bfc-bef3-a9a6d735c665" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.192"/>
+  <testsuite name="Account / Corporate / Delete a sub-account" id="ab9115e9-caee-4f68-afc0-4d57cb81a522" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.172"/>
+  <testsuite name="Account / Corporate / Update sub-account plan" id="2aa4e528-a3bd-4cb3-b270-c99ab8f34705" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.181"/>
+  <testsuite name="Account / Account data / Get your account information, plan and credits details" id="4ece0fd7-e29d-4bcb-a62f-703942eb5cfe" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.225"/>
+  <testsuite name="Account / Senders / Get the list of all your senders" id="164585a2-6ef5-479b-8f7a-2486328a339d" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Account / Senders / Create a new sender" id="c63afdd1-7e27-446b-8a36-c06a21143471" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.182"/>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for your account" id="1736f555-233c-49af-a1df-6326fa91dea9" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Account / Senders / Update a sender" id="9772e703-ba10-4718-8a0c-f1c1d0435d80" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.209"/>
+  <testsuite name="Account / Senders / Delete a sender" id="6581fe22-2de5-411f-ae45-8c394646e9b2" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.193"/>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for a sender" id="4b7cb0e4-94f0-466a-bcb7-301f0814c418" timestamp="2023-08-11T10:47:07.601Z" tests="0" failures="0" errors="0" time="0.197"/>
+</testsuites>
