@@ -13,7 +13,7 @@ public class JavaDataTypes {
         short money = 32767;
         int tooMuchMoney = 2147483647;
         long longerMoney = 922332036854775807l;
-        float area = 21.474846f;
+        float area = 21.474845f;
         double biggerArea = 1234.5344588888;
 //        char option = 'n';
 //        boolean isAround = true;
