@@ -4,6 +4,6 @@ public class Main {
         System.out.println("Welcome to Testify Academy");
         System.out.println("Welcome to Test Automation School");
         System.out.println("Welcome to Module 4");
-        System.out.println("Welcome to the Module on Java");
+        System.out.println("Welcome to the Module on Java!");
     }
 }
