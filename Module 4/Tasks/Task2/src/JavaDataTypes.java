@@ -1,13 +1,13 @@
 public class JavaDataTypes {
     public static void main(String[] args) {
-        //bytes -128 to 128
-        //short -32,768 to 32,767
-        //int -2,147,483,648 to 2,147,483,647
-        //long -9,223,372,036,854,775,808 to 9,223,32,036,854,775,807
-        //float -6 to 7 decimal digits
-        //double float from 15 decimal digits
-        //char single letters = 'a' 'b'
-        //boolean true or false
+        /*bytes -128 to 128
+        short -32,768 to 32,767
+        int -2,147,483,648 to 2,147,483,647
+        long -9,223,372,036,854,775,808 to 9,223,32,036,854,775,807
+        float -6 to 7 decimal digits
+        double float from 15 decimal digits
+        char single letters = 'a' 'b'
+        boolean true or false*/
 
         byte age = 127;
         short money = 32767;
