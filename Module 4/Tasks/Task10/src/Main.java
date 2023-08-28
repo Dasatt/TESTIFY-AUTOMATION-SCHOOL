@@ -6,7 +6,15 @@ public class Main {
 //    the user should be shown rejection message. after creating this method,then invoke the created
 //    method in your main method
 
-    public static void verifyVisitor(String userInput){
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Main mainObject = new Main();
+        System.out.println("Enter the code word to verify you:");
+        String userInput = scanner.nextLine();
+        mainObject.verifyVisitor(userInput);
+
+    }
+    public void verifyVisitor(String userInput){
         if(userInput.equalsIgnoreCase("Testify")){
             System.out.println("Welcome to Testify Academy!!!");
         }else{
@@ -14,11 +22,5 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the code word to verify you:");
-        String userInput = scanner.nextLine();
-        verifyVisitor(userInput);
 
-    }
 }
