@@ -12,7 +12,7 @@ public class Main {
         try{
             int age = userInput.nextInt();
             System.out.println("Your age is " + age);
-        }catch (RuntimeException ageError){
+        }catch (java.util.InputMismatchException ageError){
             System.out.println("Sorry that is not a number, Enter a number");
         }
 
