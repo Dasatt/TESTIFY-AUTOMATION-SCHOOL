@@ -2,8 +2,8 @@
  I also want to access the variable without creating an object of its class. Help me implement this
 */
 public class ClassB {
-    public void getVariable(){
-        System.out.println("Variable age in classA is: "+ClassA.age);
 
+    public static void main(String[] args) {
+        System.out.println("Variable age in classA is: "+ClassA.age);
     }
 }
