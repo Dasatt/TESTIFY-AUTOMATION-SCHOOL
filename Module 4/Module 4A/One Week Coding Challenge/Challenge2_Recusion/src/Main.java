@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ReverseString obj = new ReverseString();
+        obj.reverseString("I am the best Automation Tester");
     }
 }
