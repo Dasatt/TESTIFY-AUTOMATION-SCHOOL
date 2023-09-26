@@ -1,4 +1,4 @@
-//2.	Reverse the position of words in "I am the best Automation Tester" using recursion:
+//7.	Reverse "TestifyAutomation" using recursion in Java
 public class ReverseString {
 
     public void reverseString(String text){
