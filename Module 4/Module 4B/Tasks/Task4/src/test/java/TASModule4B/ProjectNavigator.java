@@ -18,7 +18,8 @@ public class ProjectNavigator {
         driver.findElement(By.name("password")).sendKeys("Testing1234");
 
 
-        /*observed there is an advertisement iframe in class ns, id id="dismiss-button" yofpg-e-16
+
+        /*observed there is an advertisement iframe in class ns,  id="dismiss-button" yofpg-e-16
         on multiple attempts unable to access this elememnt, noticed page has two sets of <html> opening and closing tags
           there's need to iterate though this and no successful researh online */
     }
