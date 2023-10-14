@@ -1,7 +1,7 @@
 package TASModule4B;
 /*  Navigate to http://demo.guru99.com/
     Click on the security Project menu.
-    Input any text in the email and password field.*/
+    Input any text in the email and password field. */
 
 
 import org.openqa.selenium.By;
