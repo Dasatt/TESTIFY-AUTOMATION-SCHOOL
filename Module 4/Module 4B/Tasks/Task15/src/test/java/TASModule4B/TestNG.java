@@ -26,7 +26,7 @@ public class TestNG {
     }
     @AfterClass
     public void closeBrowser(){
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
@@ -47,6 +47,8 @@ public class TestNG {
         String orderColour = orderButton.getCssValue("background-color");
         System.out.println("Order now button colour is: " + orderColour);
         System.out.println("Executed go to McDonald");
+        driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
+
     }
 
 }
