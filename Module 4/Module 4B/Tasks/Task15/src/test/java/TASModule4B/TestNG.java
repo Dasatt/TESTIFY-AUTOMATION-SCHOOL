@@ -40,7 +40,7 @@ public class TestNG {
     }
 
     @Test
-    public void goToMcDonalds(){
+    public void goToMcDonald(){
         driver.get("https://www.mcdonalds.com/us/en-us.html");
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
         WebElement orderButton = driver.findElement(By.xpath("//a[@id='button-ordernow']"));
