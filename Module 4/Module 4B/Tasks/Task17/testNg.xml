@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TASModule4B">
+<!--    <parameter name="a" value="5"/>-->
+<!--    <parameter name="b" value="3"/>-->
+    <test name="Task17_DemoQA">
+        <classes>
+            <class name="TASModule4B.ElementPage"></class>
+            <class name="TASModule4B.FormPage"></class>
+            <class name="TASModule4B.WidgetPage"></class>
+            <class name="TASModule4B.InteractionPage"></class>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
