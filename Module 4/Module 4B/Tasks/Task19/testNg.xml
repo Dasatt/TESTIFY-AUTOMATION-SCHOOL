@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Task19">
+<!--    <parameter name="a" value="5"/>-->
+<!--    <parameter name="b" value="3"/>-->
+    <test name="Task19_Commandline">
+        <groups>
+            <run>
+                <include name="Homepage"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Task17.HomePage"></class>
+            <class name="Task18.SauceCartTest"></class>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
