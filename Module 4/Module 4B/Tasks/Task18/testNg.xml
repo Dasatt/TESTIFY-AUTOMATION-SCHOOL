@@ -3,10 +3,9 @@
 <suite name="TASModule4B">
 <!--    <parameter name="a" value="5"/>-->
 <!--    <parameter name="b" value="3"/>-->
-    <test name="Task17_DemoQA">
+    <test name="Task18">
         <classes>
-<!--            <class name="TASModule4B.ElementPage"></class>-->
+            <class name="TASModule4B.SauceCartTest"></class>
         </classes>
     </test> <!-- Test -->
-
 </suite> <!-- Suite -->
