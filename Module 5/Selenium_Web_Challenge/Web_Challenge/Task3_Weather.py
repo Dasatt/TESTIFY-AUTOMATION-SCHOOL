@@ -25,7 +25,7 @@ def search_button(driver):
 
 def get_wiki_text(driver):
     div_element = driver.find_element(By.CLASS_NAME, "kno-rdesc")
-    # span_element = div_element.find_element(By.TAG_NAME, "span")
+    span_element = div_element.find_element(By.TAG_NAME, "span")
     print(div_element.text)
 
 
