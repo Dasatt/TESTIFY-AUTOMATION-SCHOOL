@@ -1,35 +1,41 @@
-# Using    the    chrome    browser    navigate    to https://www.facebook.com/ fill  in
-# the  email/phone  and password text box then click the Login Button
-
+# Using    the    firefox    browser    navigate    to https://www.google.com/  enter
+# the  text  Python  in  the search  box,  then  send  the  Enter  key.
+# Get  the  text  from  the Wikipedia  brief  on  the  right  side  and  print
+# the  value  in  the console.
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.firefox.service import Service
+from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 
 
-def fill_data(driver):
-    email_element = driver.find_element(By.ID, "email")
-    email_element.send_keys("test@gmail.com")
-    password_element = driver.find_element(By.ID, "pass")
-    password_element.send_keys("tester123")
+def enter_search_query(driver):
+    search_box_element = driver.find_element(By.ID, "APjFqb")
+    search_box_element.send_keys("Python")
 
 
-def login(driver):
-    login_button_element = driver.find_element(By.NAME, "login")
+def search_button(driver):
+    # Click around webpage to remove suggestion list
+    driver.find_element(By.XPATH, "//body/div[1]/div[2]").click()
     time.sleep(5)
-    login_button_element.click()
+    search_button_element = driver.find_element(By.NAME, "btnK")
+    search_button_element.submit()
+    time.sleep(5)
+
+
+def get_wiki_text(driver):
+    div_element = driver.find_element(By.CLASS_NAME, "kno-rdesc")
+    span_element = div_element.find_element(By.TAG_NAME, "span")
+    print(div_element.text)
 
 
 def main():
-    s = Service(ChromeDriverManager().install())
-    # s = Service(
-    #     r"C:\Users\YEMISI\OneDrive\Documents\Software Testing\Testify Academy\Testify Automation School Repo\Module 5\Selenium_Web_Challenge\Webdrivers\chromedriver-win64\chromedriver.exe")
-    driver = webdriver.Chrome(service=s)
-    driver.get("https://facebook.com")
-    fill_data(driver)
-    login(driver)
+    s = Service(GeckoDriverManager().install())
+    driver = webdriver.Firefox(service=s)
+    driver.get("https://google.com")
+    enter_search_query(driver)
+    search_button(driver)
+    get_wiki_text(driver)
 
 
 if __name__ == "__main__":
